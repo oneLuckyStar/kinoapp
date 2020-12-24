@@ -1,0 +1,22 @@
+{
+	"all_bases": {
+		"test": {
+			"desc": "Проверка config.json",
+			"requests": [
+				"getTest"
+			]
+		}
+	},
+
+	"dev": {
+		"test": "schema.dev"
+	},
+
+	"test": {
+		"test": "schema.test"
+	},
+
+	"prod": {
+		"test": "schema.prod"
+	}
+}
